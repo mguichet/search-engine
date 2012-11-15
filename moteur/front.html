@@ -3,23 +3,61 @@
 <html lang="en">
 <head>
     <meta charset="utf-8" />
-    <title>jQuery UI Spinner - Default functionality</title>
-    <link rel="stylesheet" href="http://code.jquery.com/ui/1.9.1/themes/base/jquery-ui.css" />
+    <title>SEO - Search Engine</title>
+    
     <script src="http://code.jquery.com/jquery-1.8.2.js"></script>
-    <script src="jquery.mousewheel.js"></script>
     <script src="http://code.jquery.com/ui/1.9.1/jquery-ui.js"></script>
-    <script type="text/javascript" src="mecanix.js" > </script>
-</head>
-<div align="center">
-    <img src="logo.png"> <br />
-    <div class="ui-widget">
-        <input id="search_bar" type="text" name="search_bar" value="" placeholder="" size="60">
-    </div><br />
-    <input type="submit" value="Search" />
-    <input type="submit" value="Random" />
-</div>
+    <script type="text/javascript" src="mecanix.js" ></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <!-- <link rel="stylesheet" href="http://code.jquery.com/ui/1.9.1/themes/base/jquery-ui.css" /> -->
+    </head>
+    <body>
+        <div align="center">
+            <!-- LOGO -->
+            <img src="logo.png"> <br />
 
+            <!-- Barre recherche -->
+            <div class="ui-widget">
+                <input id="search_bar" type="text" name="search_bar" value="" size="60">
+            </div><br />
 
+            <!-- boutons -->
+            <input type="submit" value="Search" />
+            <input type="submit" value="Random" />
 
-</body>
+            <!-- code php à placer ici -->
+
+            <!-- exemple de tableau -->
+            <div class=table_results>
+                <table>
+                    <tr>
+                        <th>Results</th>
+                        <th>Date</th>
+                        <th>Rank</th>
+                    </tr>
+
+                    <tr>
+                        <td> <a href="liens">texte</a> 
+                            Result 1 <br /> 
+                            URL <br /> 
+                            Snippet
+                        </td>
+
+                        <td>21/05/2012</td>
+                        <td>Rank Result 1</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Result 1 <br /> 
+                            URL <br /> 
+                            Snippet
+                        </td>
+
+                        <td>10/10/2012</td>
+                        <td>Rank Result 1</td>
+                    </tr>
+                </table>
+            <div class=table_results />
+        </div>
+    </body>
 </html>
