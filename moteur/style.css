@@ -1,3 +1,7 @@
+A:link
+{
+	text-decoration: none !important;
+}
 TABLE
 {
 	border-collapse: collapse;
@@ -17,18 +21,8 @@ TD
 	padding: 0px 175px 60px 0px;
 	margin: 0px;
 	border-left: 0px solid #000000;
-	/*[empty]background-color:;*/
 	font-size: 13pt;
 	font-family: Helvetica;
 	text-align: center;
 }
 
-a:link
-{
-	text-decoration:none;
-}
-
-BODY
-{
-	font-size: 15pt !important;
-}
